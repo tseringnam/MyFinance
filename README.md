@@ -37,8 +37,7 @@ Node.js 22.13 or newer is required. Dependencies are pinned by the lockfile.
 
 ## 2. Create Google OAuth credentials
 
-In Google Cloud Console create/select a project, configure Google Auth Platform's
-branding, audience, and data access, and create an OAuth client of type
+Users will create an account, verify their email, and sign in with a password. Gmail addresses work normally.
 **Web application**. Request only openid, email, profile. Record its client ID and
 client secret. If Google keeps the app in testing, add intended users as test
 users; use its publishing process before inviting the general public.
